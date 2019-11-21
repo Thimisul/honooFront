@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Honoo';
+  public token = '';
+  public baseUrl = 'http://localhost:3000/'
 }
